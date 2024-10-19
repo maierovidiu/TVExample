@@ -9,7 +9,7 @@ import {
 
 import Card from '../../components/card/Card';
 
-const Screen3: React.FC = () => {
+const Screen4: React.FC = () => {
   const data = Array.from({length: 10}, (_, index) => index);
 
   const renderItemClassic: ListRenderItem<number> = ({item: index}) => (
@@ -75,4 +75,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Screen3;
+export default Screen4;
