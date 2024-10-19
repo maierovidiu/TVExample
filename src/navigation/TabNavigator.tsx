@@ -6,6 +6,7 @@ import Screen1 from '../screens/screen1/Screen1';
 import Screen2 from '../screens/screen2/Screen2';
 import Screen3 from '../screens/screen3/Screen3';
 import Screen4 from '../screens/screen4/Screen4';
+import Screen5 from '../screens/screen5/Screen5';
 import TabButton from '../components/tab-button/TabButton';
 
 const {width} = Dimensions.get('window');
@@ -123,7 +124,7 @@ const AppTabNavigator = () => (
     />
     <BottomTab.Screen
       name="Screen5"
-      component={Screen1}
+      component={Screen5}
       options={options.screen5}
     />
   </BottomTab.Navigator>
