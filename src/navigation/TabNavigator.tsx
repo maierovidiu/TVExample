@@ -5,6 +5,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Screen1 from '../screens/screen1/Screen1';
 import Screen2 from '../screens/screen2/Screen2';
 import Screen3 from '../screens/screen3/Screen3';
+import Screen4 from '../screens/screen4/Screen4';
 import TabButton from '../components/tab-button/TabButton';
 
 const {width} = Dimensions.get('window');
@@ -117,7 +118,7 @@ const AppTabNavigator = () => (
     />
     <BottomTab.Screen
       name="Screen4"
-      component={Screen1}
+      component={Screen4}
       options={options.screen4}
     />
     <BottomTab.Screen
